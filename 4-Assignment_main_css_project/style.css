@@ -161,6 +161,7 @@ body {
 .sign-up-banner {
   width: 800px;
   background-color: #3882f6;
+  color: #F9FAF8;
   display: flex;
   align-items: center;
   justify-content: space-between;
