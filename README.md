@@ -1,2 +1,2 @@
-# Brainnest_Week_2
- Brainnest Training Program - Week 1 - CSS
+# Brainnest Week 2
+ Brainnest Training Program - Week 2 - CSS
