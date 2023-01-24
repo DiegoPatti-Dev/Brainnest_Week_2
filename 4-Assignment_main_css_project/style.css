@@ -38,6 +38,11 @@ body {
   color: #E5E7EB;
 }
 
+.link-header:hover {
+  border-bottom: 2px solid white;
+}
+
+
 .container-1 {
   background-color: #1F2937;
   display: flex;
@@ -65,16 +70,45 @@ body {
 
 .hero-button {
   background-color: #3882f6;
-  padding: 8px 24px;
-  border-color: transparent;
+  padding: 8px 36px;
+  border: 2px solid #3882f6;
   border-radius: 10px;
   color: #E5E7EB;
   margin-top: 10px;
   cursor: pointer;
 }
 
+.hero-button:hover {
+  border: 2px solid #3882f6;
+  background-color: #E5E7EB;
+  color: #3882f6;
+  transition: 0.7s;
+}
+
 .banner-right {
   margin-right: 300px;
+}
+
+.image-banner {
+  --c: #3882f6; /* the border color */
+  --b: 6px; /* the border thickness*/
+  --g: 2px; /* the gap on hover */
+  
+  padding: calc(var(--g) + var(--b));
+  --_g: #0000 25%,var(--c) 0;
+  background: 
+    conic-gradient(from 180deg at top var(--b) right var(--b),var(--_g))
+    var(--_i,200%) 0 /200% var(--_i,var(--b)) no-repeat,
+    conic-gradient(at bottom var(--b) left  var(--b),var(--_g))
+    0 var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+  transition: .2s, background-position .2s .2s;
+  cursor: pointer;
+  border-radius: 15PX;
+}
+
+.image-banner:hover {
+  --_i: 100%;
+  transition: .2s, background-size .2s .2s;
 }
 
 .container-2 {
@@ -111,8 +145,25 @@ body {
 }
 
 .image-exemple {
-  border: 4px #3882f6 solid;
-  border-radius: 15px;
+  --c: #3882f6; /* the border color */
+  --b: 6px; /* the border thickness*/
+  --g: 2px; /* the gap on hover */
+  
+  padding: calc(var(--g) + var(--b));
+  --_g: #0000 25%,var(--c) 0;
+  background: 
+    conic-gradient(from 180deg at top var(--b) right var(--b),var(--_g))
+    var(--_i,200%) 0 /200% var(--_i,var(--b)) no-repeat,
+    conic-gradient(at bottom var(--b) left  var(--b),var(--_g))
+    0 var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+  transition: .2s, background-position .2s .2s;
+  cursor: pointer;
+  border-radius: 15PX;
+}
+
+.image-exemple:hover {
+  --_i: 100%;
+  transition: .2s, background-size .2s .2s;
 }
 
 .image-description {
@@ -172,12 +223,19 @@ body {
 
 .sign-up-button {
   background-color: #3882f6;
-  padding: 8px 24px;
+  padding: 8px 36px;
   border: 2px solid #E5E7EB;
   border-radius: 10px;
   color: #E5E7EB;
   margin-top: 10px;
   cursor: pointer;
+  transition: .7s;
+}
+
+.sign-up-button:hover {
+  background-color: #E5E7EB;
+  color: #3882f6;
+  font-weight: bold;
 }
 
 .footer {
