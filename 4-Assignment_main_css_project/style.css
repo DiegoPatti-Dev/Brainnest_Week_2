@@ -90,7 +90,7 @@ body {
 }
 
 .image-banner {
-  --c: #3882f6; /* the border color */
+  --c: #E5E7EB; /* the border color */
   --b: 6px; /* the border thickness*/
   --g: 2px; /* the gap on hover */
   
