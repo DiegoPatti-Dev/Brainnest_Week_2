@@ -4,24 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
   <title> Links & Images </title>
 </head>
 <body>
-  <h1> Homepage </h1>
 
-  <a href="http://theuselessweb.com/"> Click me </a>
+  <header class="nav-bar">
+    <div class="header-logo">
+      <h1> Homepage </h1>
+    </div>
+    <div class="header-links">
+      <a class="link" href="http://theuselessweb.com/"> Click me </a>
+      <a class="link" href="../index.html">Back</a>
+    </div>
+  </header>
+  
+  <main>
+    <section class="container-1">
+      <div class="container-1-left">
+        <h2 class="container-1-heading"> Nissan <br> GT-R R34</h2>
+        <button class="container-1-button">
+          <a href="./pages/about.html"> Know more </a>
+        </button>
+      </div>
+      <div class="container-1-right">
+        <img class="container-1-image" src="./images/first-img.jpg" alt="Nissan Skyline GT-R R34">
+      </div>
+    </section>
+  </main>
 
-  <br>
-  <br>
-
-  <a href="./pages/about.html"> About </a>
-
-  <br>
-
-  <img src="./images/first-img.jpg" alt="Nissan Skyline GT-R R34">
-
-  <br>
-
-  <button><a href="../../../index.html">BACK</a></button>
+  <footer>
+    <p>Diego Pirineus Patti</p>
+  </footer>
 </body>
 </html>
