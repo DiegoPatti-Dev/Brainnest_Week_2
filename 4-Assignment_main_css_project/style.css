@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -12,18 +12,18 @@ body {
 }
 
 .nav-bar {
+  background-color: #1F2937;
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
-  background-color: #1F2937;
 }
 
 .header-logo {
-  text-decoration: none;
   color: #F9FAF8;
   font-size: 24px;
-  margin-left: 300px;
   font-weight: 900;
+  margin-left: 300px;
+  text-decoration: none;
 }
 
 .links-header {
@@ -33,54 +33,53 @@ body {
 }
 
 .link-header {
-  text-decoration: none;
-  font-size: 18px;
   color: #E5E7EB;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .link-header:hover {
   border-bottom: 2px solid white;
 }
 
-
 .container-1 {
+  align-items: center;
   background-color: #1F2937;
   display: flex;
   height: 400px;
   justify-content: space-between;
-  align-items: center;
 }
 
 .banner-left {
-  width: 450px;
   height: 220px;
   margin-left: 300px;
+  width: 450px;
 }
 
 .hero-heading {
-  font-size: 48px;
   color: #F9FAF8;
+  font-size: 48px;
   font-weight: 900;
 }
 
 .hero-text {
-  font-size: 18px;
   color: #E5E7EB;
+  font-size: 18px;
 }
 
 .hero-button {
   background-color: #3882f6;
-  padding: 8px 36px;
   border: 2px solid #3882f6;
   border-radius: 10px;
   color: #E5E7EB;
-  margin-top: 10px;
   cursor: pointer;
+  margin-top: 10px;
+  padding: 8px 36px;
 }
 
 .hero-button:hover {
-  border: 2px solid #3882f6;
   background-color: #E5E7EB;
+  border: 2px solid #3882f6;
   color: #3882f6;
   transition: 0.7s;
 }
@@ -90,10 +89,9 @@ body {
 }
 
 .image-banner {
-  --c: #E5E7EB; /* the border color */
-  --b: 6px; /* the border thickness*/
-  --g: 2px; /* the gap on hover */
-  
+  --c: #E5E7EB; /* border color */
+  --b: 6px; /* border thickness*/
+  --g: 2px; /* gap on hover */
   padding: calc(var(--g) + var(--b));
   --_g: #0000 25%,var(--c) 0;
   background: 
@@ -112,22 +110,22 @@ body {
 }
 
 .container-2 {
+  align-items: center;
+  background-color: #F9FAF8;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 400px;
-  background-color: #F9FAF8;
+  justify-content: center;
 }
 
 .container-2-heading {
-  font-size: 36px;
-  display: flex;
   align-items: center;
-  justify-content: center;
   color: #1F2937;
-  margin-bottom: 42px;
+  display: flex;
+  font-size: 36px;
   font-weight: 900;
+  justify-content: center;
+  margin-bottom: 42px;
 }
 
 .images {
@@ -137,18 +135,17 @@ body {
 }
 
 .image-card {
-  display: flex;
   align-items: center;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 150px;
 }
 
 .image-exemple {
-  --c: #3882f6; /* the border color */
-  --b: 6px; /* the border thickness*/
-  --g: 2px; /* the gap on hover */
-  
+  --c: #3882f6; /* border color */
+  --b: 6px; /* border thickness*/
+  --g: 2px; /* gap on hover */  
   padding: calc(var(--g) + var(--b));
   --_g: #0000 25%,var(--c) 0;
   background: 
@@ -167,18 +164,18 @@ body {
 }
 
 .image-description {
+  color: #1F2937;
   display: flex;
   flex-wrap: wrap;
-  color: #1F2937;
-  text-align: center;
   margin-top: 8px;
+  text-align: center;
 }
 
 .container-3 {
-  height: 400px;
+  align-items: center;
   background-color: #E5E7EB;
   display: flex;
-  align-items: center;
+  height: 400px;
   justify-content: center;
 }
 
@@ -189,46 +186,46 @@ body {
 }
 
 .quote {
-  font-size: 36px;
   color: #1f2937;
-  font-weight: 300;
+  font-size: 36px;
   font-style: italic;
+  font-weight: 300;
 }
 
 .quote-author {
   display: flex;
-  justify-content: flex-end;
   font-weight: bold;
+  justify-content: flex-end;
 }
 
 .container-4 {
-  height: 400px;
+  align-items: center;
   background-color: #F9FAF8;
   display: flex;
-  align-items: center;
+  height: 400px;
   justify-content: center;
 }
 
 .sign-up-banner {
-  width: 800px;
+  align-items: center;
   background-color: #3882f6;
+  border-radius: 10px;
   color: #F9FAF8;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   height: 120px;
-  border-radius: 10px;
+  justify-content: space-between;
   padding: 0 80px;
+  width: 800px;
 }
 
 .sign-up-button {
   background-color: #3882f6;
-  padding: 8px 36px;
   border: 2px solid #E5E7EB;
   border-radius: 10px;
   color: #E5E7EB;
-  margin-top: 10px;
   cursor: pointer;
+  margin-top: 10px;
+  padding: 8px 36px;
   transition: .7s;
 }
 
@@ -239,10 +236,10 @@ body {
 }
 
 .footer {
-  height: 80px;
+  align-items: center;
   background-color: #1F2937;
   color: #E5E7EB;
   display: flex;
-  align-items: center;
+  height: 80px;
   justify-content: center;
 }
